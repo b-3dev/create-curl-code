@@ -23,6 +23,6 @@
       "url": "https://github.com/b-3dev/create-curl-code"
     }
   ],
-  "minimum-stability": "dev",
+  "minimum-stability": "stable",
   "prefer-stable": true
 }
