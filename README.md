@@ -84,7 +84,7 @@ Here’s an example of how you can use the `CreateCode` class to generate cURL c
 
 require 'vendor/autoload.php';
 
-use b3dev\Code;
+use Code\CreateCode;
 
 $code = new CreateCode('https://open.wiki-api.ir/apis-1/ChatGPT', 'GET');
 $code->setPayloads('url-encode', [
@@ -94,7 +94,7 @@ $code->setHeaders([
     "Content-Type" => "application/json"
 ]);
 $code->setTimeout(30, 10);
-echo $code->fetchCode(2);
+echo $code->fetchCode(0);
 ```
 
 ## License
