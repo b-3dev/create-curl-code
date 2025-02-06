@@ -1,0 +1,28 @@
+{
+  "name": "b-3dev/create-curl-code",
+  "description": "A simple PHP project for generating cURL sample code.",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "b-3dev",
+      "email": "b3dev.mmd@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Code\\": "src/"
+    }
+  },
+  "require": {
+    "php": "^8.0"
+  },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/b-3dev/create-curl-code"
+    }
+  ],
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
