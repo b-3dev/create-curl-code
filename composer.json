@@ -14,15 +14,12 @@
       "Code\\": "src/"
     }
   },
-  "require": {
-    "php": "^8.0"
-  },
   "repositories": [
     {
       "type": "vcs",
       "url": "https://github.com/b-3dev/create-curl-code"
     }
   ],
-  "minimum-stability": "stable",
+  "minimum-stability": "dev",
   "prefer-stable": true
 }
